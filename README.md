@@ -1,5 +1,7 @@
 # 点触验证码 PHP-SDK
 
+#####[其他语言SDK以及JS API https://github.com/touclick/captcha-demo](https://github.com/touclick/captcha-demo)
+
 ##开发环境
 
 * PHP环境(PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7)
