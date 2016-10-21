@@ -47,7 +47,7 @@ class TouClick{
 			$checkParam['timestamp'] = $params ['ran'];
 			$sign = $this->getSign($checkParam, $this->prikey);
 			if ($sign == $check['sign']) {
-				$res['code'] = 12;
+				$res['code'] = 0;
 				$res['message'] = '验证成功';
 				$res['checkCode'] = $check['ckCode'];
 				return $res;
